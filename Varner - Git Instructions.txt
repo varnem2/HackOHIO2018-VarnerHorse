@@ -1,0 +1,7 @@
+To push your changes on a fully updated local repo
+
+1. git add --all
+
+2. git commit -m "your message"
+
+3. git push origin master
