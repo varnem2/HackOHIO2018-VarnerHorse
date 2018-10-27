@@ -14,7 +14,7 @@ public class InvControl {
 			
 			Connection con = DriverManager.getConnection(connectionURL);
 			
-			
+			con.close();
 			
 		}catch(ClassNotFoundException e) {
 			System.err.println("Error finding class.");
